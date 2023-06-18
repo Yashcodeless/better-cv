@@ -20,6 +20,7 @@ body {
 .bottom-container {
     position: relative;
     top: 30px;
+    background-color: #66BFBF;
 }
 
 .btn {
@@ -27,7 +28,7 @@ body {
     top: 30px;
 }
 
-.btn{
+.btn {
     background: #3D94F6;
     background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
     background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
@@ -51,9 +52,9 @@ body {
     display: inline-block;
     cursor: pointer;
     text-align: center;
- }
- 
- .btn:hover {
+}
+
+.btn:hover {
     border: solid #0059A0 1px;
     background: #1E62D0;
     background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
@@ -65,14 +66,17 @@ body {
     -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
- }
-.bob{
+}
+
+.bob {
     border-radius: 30%;
     float: right;
 }
+
 .top-container {
     margin: 0 0;
     background-color: rgb(212, 252, 252);
+    width: 100%;
 }
 
 .cloud1 {
@@ -94,7 +98,7 @@ body {
     float: left;
     margin: auto;
     margin-left: 10%;
-border-radius: 30%;
+    border-radius: 30%;
 }
 
 h1 {
@@ -111,7 +115,8 @@ h1 {
 h2 {
     color: #66BFBF;
 }
-h3{
+
+h3 {
     margin-bottom: 0;
     color: #11999E;
 }
@@ -119,7 +124,7 @@ h3{
 .intro {
     font-family: 'Comic Sans MS';
     font-size: large;
-    width: 70%;
+    width: 60%;
     text-align: center;
     margin: auto;
 }
@@ -154,11 +159,16 @@ hr {
     text-align: left;
     line-height: 2;
 }
-.non-tech{
+
+.non-tech {
     width: 50%;
     height: auto;
     margin-left: 30%;
     text-align: left;
     line-height: 2;
 
+}
+
+.footer-link {
+    margin-left: 5%;
 }
